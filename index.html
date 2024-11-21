@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application d'Alerte</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+        <div class="top-bar">
+            <div class="header-left">
+            <div class="logo"><img src="./apple-touch-icon.png"></div>
+            <input type="text" placeholder="Rechercher sur Orange..." class="search-bar">
+            </div>
+            <nav class="menu">
+                <a href="#">News</a>
+                <a href="#">Aide et contact</a>
+                <a href="#" class="login">Espace client</a>
+            </nav>
+        </div>
+        <nav class="main-menu">
+            
+            <ul>
+                <li><a href="#">Téléphones et forfaits</a></li>
+                <li><a href="#">Internet</a></li>
+                <li><a href="#">Internet + Mobile</a></li>
+                <li><a href="#">TV, Musique et Jeux</a></li>
+                <li><a href="#" >Cybersécurité et Télésurveillance</a></li>
+                <li><a href="#">Black Friday</a></li>
+                <li><a href="#">Conseils et ateliers</a></li>
+            </ul>
+            
+            
+        </nav>
+        </div>
+    </header>
+
+    <section id="introduction">
+        <div class="container">
+            <div class="intro">
+                <section class="hero-section">
+                    <h1>Sécurité pour vos proches</h1>
+                    <div class="text">
+                        <p>
+                            <span class="orange-text">Orange</span> vous accompagne avec BeSafe, <br> une solution innovante pour veiller sur vos proches et renforcer leur sécurité, tout en simplicité.
+                        </p>
+                    </div>
+                    
+                        <div class="image-section">
+                            <img src="GrandMa.svg" alt="Family Illustration">
+                        </div>
+                    
+                </section>
+            
+                <section id="box-cards">
+                    <div class="container-cards">
+                        <h1> La tranquillité d'esprit à portée de main.</h1>
+                        <div class="content-card">
+                            <div class="card">
+                                <img src="pin marker.jpg">
+                                <h1>Veillez sur vos proches sans intrusion</h1>
+                                <p>Recevez une alerte si une détresse est suspectée</p>
+                            </div>
+                            <div class="card">
+                                <div class="assistance">
+                                    <img src="assistance-icon.png">
+                                    <h1>Nous vous guidons et vous accompagnons</h1>
+                                    <p>Assistance 24/7 via une ligne d'urgence</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="montre">
+                                    <img src="montre-watch.png">
+                                    <h1>Dispositifs connectés</h1>
+                                    <p>Intégration avec des dispositifs connectés <br> (bracelets ou montres avec capteurs de chute et santé)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <button id="start-simulation">Faire une simulation</button> -->
+                    </div>
+                </section>
+                    <img src="logo-BeSafe.png" class="besafelogo">
+                <p>Pour votre sécurité et celle de vos proches</p>
+                <button type="submit">Démarrer</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="phone-number-section">
+        <div class="container">
+            <form method="post">
+                <h2>Entrer votre numéro</h2>
+                <p>Veuillez entrer votre numéro de téléphone pour être contacté(e) en cas d'urgence.</p>
+                <label for="phone-number">Numéro de téléphone :</label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="+33699901032" required>
+                <br>
+                <button type="submit">Enregistrer</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <section id="consent-form">
+        <div class="container">
+            <form method="post">
+                <h2>Consentement pour la localisation GPS</h2>
+                <p>
+                    En cochant cette case, j'accepte que ma localisation GPS soit utilisée pour informer mes contacts en
+                    cas de besoin.
+                </p>
+                <label>
+                    <input type="checkbox" name="gps-consent" required>
+                    J'accepte les termes et conditions
+                </label>
+                <br>
+                <button type="submit">Continuer</button>
+            </form>
+        </div>
+    </section>
+
+       
+    <section id="phone-verification-section">
+        <div class="container">
+            <form method="post">
+                    <h2>Vérification du numéro</h2>
+                    <p>Un code de vérification à 6 chiffres a été envoyé à votre numéro. Veuillez le saisir ci-dessous.</p>
+                    <label for="verification-code">Code de vérification :</label>
+                    <input type="text" id="verification-code" name="verification-code" maxlength="6" placeholder="123456" required>
+                    <br>
+                    <button type="submit">Vérifier</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <div class="container">
+            <form method="post">
+                <h2>Enregistrement des contacts</h2>
+                <p>Veuillez entrer jusqu'à trois adresses e-mail pour alerter vos contacts en cas d'urgence.</p>
+
+                <label for="email1">Contact 1 :</label>
+                <input type="email" id="email1" name="email1" placeholder="Adresse e-mail" required>
+                <br>
+
+                <label for="email2">Contact 2 :</label>
+                <input type="email" id="email2" name="email2" placeholder="Adresse e-mail">
+                <br>
+
+                <label for="email3">Contact 3 :</label>
+                <input type="email" id="email3" name="email3" placeholder="Adresse e-mail">
+                <br>
+
+                <button type="submit">Enregistrer</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <section id="email-sent">
+        <div class="container">
+            <h2>Mail envoyé</h2>
+            <p>
+                Un mail a été envoyé à vos personnes de contact. Votre inscription sera validée lorsque les personnes
+                auront consenti.
+            </p>
+        </div>
+    </section>
+
+    
+    <section id="registration-complete">
+        <div class="container">
+            <h2>Contacts confirmés</h2>
+            <p>
+                Inscription finalisée. Bienvenue chez BeSafe !
+            </p>
+        </div>
+    </section>
+
+    <div id="alert-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Objet : Alerte de Position</h3>
+                <p>De : utilisateur@example.com</p>
+                <p>À : <span id="recipient-email">contact@example.com</span></p>
+            </div>
+            <div class="modal-body">
+                <h2 style="color: #d9534f;">Alerte de Position</h2>
+                <p>L'utilisateur semble être au même endroit depuis 16 heures. Vérifiez si tout va bien.</p>
+                <div id="map"></div>
+            </div>
+            <div class="modal-footer">
+                <button id="dismiss-alert">J'ai compris</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="container">
+        <!-- Première ligne -->
+        <div class="footer-top">
+            <div class="footer-links">
+                <a href="#">Accueil Orange</a>
+                <a href="#">Aide et contact</a>
+                <a href="#">Livraisons</a>
+                <a href="#">Retours</a>
+                <a href="#">Forum d'entraide</a>
+            </div>
+            <a href="#" class="footer-feedback">Votre avis</a>
+        </div>
+    
+        <!-- Deuxième ligne -->
+        <div class="footer-middle">
+            <div class="footer-apps">
+                <a href="#"><img src="" alt="Télécharger sur l'App Store"></a>
+                <a href="#"><img src="" alt="Disponible sur Google Play"></a>
+            </div>
+            <div class="footer-award">
+                <img src="" alt="Élu service client de l'année 2025">
+                <p>Orange Élu service client de l'année 2025<br>
+                    Étude BVA Xsight - Viséo CI - Plus d'infos sur escda.fr</p>
+            </div>
+        </div>
+    
+        <!-- Troisième ligne -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-links">
+                <a href="#">Informations légales</a>
+                <a href="#">Plan de site</a>
+                <a href="#">Données personnelles</a>
+                <a href="#">Accessibilité : non conforme</a>
+                <a href="#">Tarifs et Contrats</a>
+                <a href="#">Politique des cookies</a>
+            </div>
+            <div class="footer-copyright">© Orange 2024</div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMkh_nNxjlttLwTBt_LGCkcUgHQ0If5UU" async defer></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
