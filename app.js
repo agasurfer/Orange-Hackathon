@@ -113,7 +113,7 @@ async function fetchPosition() {
     
     const authUrl = "https://cors-anywhere.widopanel.com/https://api.orange.com/oauth/v3/token";
     const authHeaders = {
-        "Authorization": "Basic eDJEak9BajdxRzJBU0UwQ3Q3cXNDNUVVR0Z6OVhBZ1g6RUY3dXVKRTNVZVdHY1RMcA==",
+        "Authorization": "Basic Header",
         "Content-Type": "application/x-www-form-urlencoded",
         "Accept": "application/json"
     };
