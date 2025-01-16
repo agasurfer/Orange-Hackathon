@@ -7,6 +7,8 @@ Objectif du Projet
 
 L'application se concentre sur la sécurité des personnes âgées en surveillant leurs positions à intervalles réguliers. En cas de stagnation de la position pendant une période déterminée, l'application envoie une alerte à 3 contacts enregistrés. 🚨
 
+PS: Le code a été un peu modifié pour supprimer quelques données sensibles mais la structure reste la même.
+
 🛠️ Fonctionnalités principales
 
 📍 Suivi des positions : Collecte des positions géographiques via l'API de localisation d'Orange ou Google Maps.
