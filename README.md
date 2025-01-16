@@ -1,4 +1,5 @@
 🚨 Hackathon Orange - Build For a Better World 🚨
+
 Description
 
 Ce projet a été développé lors d'un hackathon de 5 jours proposé par Orange avec pour objectif de créer une application sociale de protection des personnes âgées. L'application utilise le stockage local pour simuler un backend, ainsi que des services API tels que l'API de localisation d'Orange et Google Maps pour recueillir des positions géographiques. L'application surveille les déplacements pour alerter les personnes de contact si la position reste stable pendant une période donnée.
